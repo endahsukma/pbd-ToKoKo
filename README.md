@@ -1,12 +1,12 @@
 #Pertemuan ke-06 Aplikasi
 
 Deskripsi
-Sistem penjualan barang dagang
+Sistem penjualan
 1. Aplikasi ToKoKo 
 Nama untuk aplikasi saya yaitu Aplikasi ToKoKo pada aplikasi ini dimana saya membuat aplikasi
-yang membantu penjualan transaksi online toko dan seputar keuangan toko tersebut berjalan.
+yang membantu penjualan dan seputar transaksi tersebut berjalan.
 
-2. Aplikasi ini diperlukan untuk program penjualan toko dengan mengunakan menu yang sederhana mudah dipahami.
+2. Aplikasi ini diperlukan untuk program penjualan dengan mengunakan menu yang sederhana mudah dipahami.
 Aplikasi ToKoKo adalah aplikasi penjualan barang dagang ini diakses melalui komputer,sebagai aplikasi perhitungan,
 barang masuk dan keluar,stok barang,data supllierdan data pelanggan tertentu misalkan untuk data pelanggan untuk
 jumlah pembelian yang banyak.
