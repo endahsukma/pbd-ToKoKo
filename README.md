@@ -42,14 +42,13 @@ https://www.apachefriends.org/download.html
  -membuat kembali form login dengan mengunakan php
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Membuat Form Validasi dengan Javascript - WWW.MALASNGODING.COM</title>
+<he
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<br/>
 	<br/>
-	<center><h2>WWW.MALASNGODING.COM</h2></center>	
+	<center><h2>TOKOKO</h2></center>	
 	<br/>
 	<div class="login">
 	<br/>
