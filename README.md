@@ -166,6 +166,9 @@ textarea {
 - masih melanjutkan proses koneksi
 
 # pertemuan 10
+- menginputkan data transaksi
+- memcoba melakukan transaksi pembeian
+
 
 
 
