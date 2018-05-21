@@ -162,7 +162,10 @@ textarea {
 
 ?>
 
+# pertemuan 9
+- masih melanjutkan proses koneksi
 
+# pertemuan 10
 
 
 
