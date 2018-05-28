@@ -169,6 +169,9 @@ textarea {
 - menginputkan data transaksi
 - memcoba melakukan transaksi pembeian
 
+# pertemuan 11
+- melanjutkan transaksi pertemuan sebelumnya
+
 
 
 
