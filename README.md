@@ -180,7 +180,7 @@ textarea {
 # pertemuan 13
 - menjalankan form data diri
 
-# pertemuan 11
+# pertemuan 14
 - melakukan koneksi data dan menjalankan proyek
 
 
