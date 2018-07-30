@@ -173,6 +173,17 @@ textarea {
 - melanjutkan transaksi pertemuan sebelumnya
 
 
+# pertemuan 12
+- membuat form data diri
+
+
+# pertemuan 13
+- menjalankan form data diri
+
+# pertemuan 11
+- melakukan koneksi data dan menjalankan proyek
+
+
 
 
 
