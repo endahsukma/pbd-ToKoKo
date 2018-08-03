@@ -2,23 +2,23 @@
 	@session_start();
 	$pengguna= isset($_SESSION["user"]) ? $_SESSION["user"] : "" ;
 	$nama_lengkap = isset($_SESSION["nama_lengkap"]) ? $_SESSION["nama_lengkap"] : "" ;
-	$akses = isset($_SESSION["akses"]) ? $_SESSION["akses"] : "pinjam" ;
-	if($akses == "perpus"){
+	$akses = isset($_SESSION["akses"]) ? $_SESSION["akses"] : "" ;
+	if($akses == ""){
 		$nama_akses = "Operator Penjualan Barang";
 	}else{
-		$nama_akses = "Pembeli";
+		$nama_akses = "";
 	}
 ?>
 <!doctype html>
 <html>
     <head>
-        <title>Penjualan Barang Dagang</title>
+        <title>Ayo Belanja</title>
         <link rel="stylesheet" href="style.css">
     </head>
 	<body>
 		<div id="wrap">
         <div id="header">
-            <h1>Penjualan Barang Dagang</h1>
+            <h1>Ayo Belanja</h1>
 		</div>
 		<div style="clear: both"></div>
 		<div id="tengah">
@@ -38,22 +38,20 @@
 			Tanggal : <?php echo date("d F Y") ?>
 		</div>
 	<div id="menu">
-		<div id="menu_header">Menu</div>
+		<center><div id="menu_header">Ayo Belanja</div>
         <div id="menu_konten">
             <ul>
 			<?php
 				$tampil = "";
-				if($akses == "pinjam"){
+				if($akses == ""){
 					$tampil = "display:none";
 				}
 				?>
 				<li><a style="<?php echo $tampil ?>"
-						href="barang_tampil.php">Kelola Barang</a></li>
-					<li><a style="<?php echo $tampil ?>"
-					<li><a href="barang_tersedia.php">Barang Tersedia</a></li>
-					<li><a href="keranjang_belanja.php">Keranjang Belanja</a></li>
-					<li><a href="beli.php">Transaksi Pembelian</a></li>
-
+				<li><a href="barang_isi.php">Pengisian Skin Care</a></li>
+				<li><a href="barang_tersedia.php">Barang Tersedia</a></li>
+				<li><a href="data_1.php">Pengisian Data</a></li>
+				<li><a href="keranjang_belanja.php">Belanjaan Anda</a></li>
             </ul>
         </div>
 	</div>	
