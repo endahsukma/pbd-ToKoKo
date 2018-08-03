@@ -1,96 +1,167 @@
-body {
-	bacground-color: #1flclc ;
-	font-family:sans-serif;
+* {margin:0; padding:0;}
+body{
+    background-image: url('brgtersedia.jpg');
+	font-family: Comics Sans MS;
 }
-#wrap {
-	width: 800px;
+#wrap{
+    width: 800px;
+	height: 400px;
 	margin: auto;
-	bacground-color: #fff ;
+	background-color: #fff;
 	border-radius: 10px;
-	border: 3px double #000;
-	}
+	border: 3px double #000 ;
+}
 #header {
-	bacground-image: url('gambar.gif');
+    background-image: url('kerbelanja.jpg');
 	height: 100px;
 	margin-top: -20px;
 }
 #header h1{
-	color: #00125b;
+	color: black;
 	padding: 40px 0px 0px 20px;
 	text-shadow: #fff 1px 1px 3px;
-	}
+	text-align: center;
+	font-family: Comics Sans MS;
+}
 #menu{
+	background-color: white;
 	width: 170px;
 	float: left;
 	border-right: 1px solid #bababa;
+	height:30px; 
+	line-height:35px; 
+	position:absolute;
 }
-#menu_header{
+#menu-header{
 	padding: 10px;
 	text-align: center;
 	font-weight: bold;
 	border-bottom: 1px solid #bababa;
 }
-#menu_konten ul {
-	list-style-type: none;
-	padding: 0px;
-	margin: 0px;
+#menu-konten ul{
+	list-style: none;
 }
 #menu a{
 	display: block;
 	padding: 5px;
 	border-bottom: 1px solid #bababa;
 	text-decoration: none;
-	font-size: 11px;
+	font-size: 11pt;
 }
 #menu a:hover{
 	color: #000;
-	bacground-color: #dadada;
+	background-color: #dadada;
+}
+#halamandepan{
+	color : blue;
+	padding: 5px;
+	display: blink;
 }
 #konten{
 	padding: 5px;
+	height: 50px;
 	width: 605px;
 	float: right;
-	font-size: 11px;
+	font-size: 9pt;
 	margin: 5px;
+	display: block;
+	position:relative;
 }
 #konten a{
-	text-decoration; none;
-	color: thin solid #9a9a9a;
-	bacground-color: #dadada;
+	text-decoration: none;
+	color: #000;
+	border: thin solid #9a9a9a;
+	background-color: #dadada;
 	padding: 3px;
 	text-align: center;
+	color : blue;
 	display: block;
-	max-width; 200px;
+	max-width: 200px;
 	float: left;
 	margin: 3px;
 }
-#konten table {
+#konten table{
 	margin: 5px 0px;
 	border: none;
-	border-top;1px solid #dadada;
-	border-right;1px solid #dadada;
+	border-top: 1px solid #dadada;
+	border-right: 1px solid #dadada;
 	clear: both;
 }
 #konten td, th{
 	border: none;
-	border-left;1px solid #dadada;
-	border-bottom;1px solid #dadada;
+	border-left: 1px  solid #bababa;
+	border-bottom: 1px solid #dadada;
 	padding: 2px;
-	}
-#info_pengguna {
-	border-bottom:1px solid #dadada;
+}
+#input:focus {
+outline: none;
+}
+#form {
+background:#fcfcfc;
+border-radius:10px;
+padding:20px;
+padding-top:30px;
+width:100px;
+margin:0 auto;
+margin-top: 50px;
+box-shadow:0px 15px 30px #40403d;
+}
+#h1 {
+text-align:center;
+font-size:2.0em;
+font-weight:700;
+color:#c7ccd0;
+margin-bottom:24px;
+}
+#h1:hover{
+font-size:2.4em;
+}
+#input {
+width:250px;
+background:#c7ccd0;
+border:0;
+padding:20px;
+border-radius:10px;
+margin-bottom: 5px;
+}
+.btn {
+width: 100px;
+height: 30px;
+padding:5px;
+border-radius:10px;
+border:0;
+background:#326799;
+font-size:1.2em;
+color:#fff;
+box-shadow:0px 3px 0px #0b4072;
+cursor: pointer;
+}
+.btn:active {
+top:3px;
+box-shadow:none;
+outline: none;
+}
+#info_pengguna{
+	border-bottom: 1px solid #dadada;
 	padding: 5px;
 	text-align: center;
-	font-size: 11px;
+	font-size: 11pt;
 }
-#footer {
-	bacground-image: url('gambar.gif')
-	height: 120px;
+#footer{
+	background-image: url('brgtersedia.png');
+	height: 130px;
+	width: 100%;
+	margin: 0px 0px;
+	margin-top:130px;
+	position:absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
 }
 #footer #text{
 	color: #fff;
-	padding: 5px;
-	text-align: right;
-	font-size: 14px;
-	text-shadow: #000 1px 1px 2px;
-}		
+	padding: 25px;
+	text-align: left-side;
+	font-size: 6pt;
+	text-shadow: white;
+}
